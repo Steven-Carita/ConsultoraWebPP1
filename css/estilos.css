@@ -239,3 +239,9 @@ span{
         padding-top: 20%;
     }
 }
+
+@media screen and (max-height: 680px ) {
+    .cajaTituloTercero{
+        padding-top: 30%;
+    }
+}
