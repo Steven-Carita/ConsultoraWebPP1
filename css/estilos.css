@@ -9,7 +9,7 @@ body {
     color: black;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 300; 
 }
 
 
@@ -29,7 +29,7 @@ ul{
     list-style-type: none;
 }
 .barra-navegacion{
-    margin-right: 10%;
+    margin-right: 6%;
 }
 
 .tituloPrincipal{
@@ -105,9 +105,13 @@ span{
     justify-content:space-around;
     height: auto;
     padding-left: 2%;
-    background-image: url("/fondo5.jpg");
+    background-image: url("../fondo5.jpg");
     background-size: cover;
     background-position: center;
+}
+/* sassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+div.tituloParticula{
+    background-image: ("img/fondo5.png");
 }
 
 .lorem{
@@ -154,6 +158,11 @@ span{
     width: 89%;
     margin: auto;
     padding-top: 2%;
+}
+
+.hanchoEquipo{
+    width: 89%;
+    margin: auto;
 }
 
 .tituloCuatro{
@@ -369,6 +378,11 @@ span{
     font-family: 'Poppins', sans-serif;
     font-size: 2.5em;
     margin-top: 5%;
+}
+
+
+.marginEmpresas{
+    margin-bottom: 2%;
 }
 
 
@@ -597,7 +611,26 @@ span{
 .prueba100{
     /* background-image: linear-gradient(rgba(50, 98, 129, 0.979),rgba(243, 239, 219, 0)); */
     /* background-color: transparent; */
-    background-color: #f6faff;
+    /* background-color: #494848f1; */
+    /* background-color: #bdccda; */
+    /* background-color: #0c4cac;
+    background-color: #044cac; */
+    /* background-color: #575556; */
+    /* background-color: #cf3227; */
+    /* background-color: #ff1f4c; */
+
+
+
+
+/* background-image: linear-gradient(to right, #044cac 65%,#c0d1eb); */
+
+    /* background-color: #2866b6; */
+
+    /* background-color: #F5A503; */
+
+    background-color: #404040ea;
+
+
     position: sticky;
     top: 0;
     width: 100%;
