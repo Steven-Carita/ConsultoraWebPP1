@@ -6,7 +6,6 @@
 }
 
 body {
-    background-color: white;
     color: black;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -35,8 +34,8 @@ ul{
 
 .tituloPrincipal{
     font-family: 'Poppins', sans-serif;
-    padding-top: 8%;
-    width: 78%;
+    padding-top: 5%;
+    width: 75%;
     font-size: 3.5em;
 }
 span{
@@ -50,14 +49,17 @@ span{
     width: 60%;
     font-size: 1.3em;
     line-height: 170%;
+    font-weight: 900;
 }
 
 .botonContacto{
     background-color: #044cac;
     border-radius: 4px;
-    padding: 15px 30px;
+    padding: 20px 30px;
     color: #fff;
     text-decoration: none;
+    width: 22%;
+    text-align: center;
 }
 
 .botonContacto:hover {
@@ -87,36 +89,45 @@ span{
 
 
 .logo{
-    height: 10vh;
     display: flex;
     align-items: center;
-    padding-left: 5%;
-    margin-top: 2%;
+    justify-content: center;
+    padding-left: 5.5%;
+    margin-top: 0;
 }
 
 .logo img{
-    height: 9vh;
+    height: 9.5vh;
 }
 
 .tituloParticula{
     display: flex;
     justify-content:space-around;
-    margin: 2%;
-    height: 60vh;
-    background-color: white;
+    height: auto;
+    padding-left: 2%;
+    background-image: url("/fondo5.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .lorem{
-    background-color: white;
+    background-color: transparent;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
 }
 
 #particles-js {
-    width: 35%;
-    background-color: white;
+    width: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: transparent;
     border-radius: 50%;
-    padding: 10px;
+    border: 1px solid #478bd82d;
     overflow: hidden;
+    height: 500px;
 }
 
 .cajaTituloTercero{
@@ -434,15 +445,77 @@ span{
 
 @media screen and (max-width: 1725px ) {
     .cajaTituloTercero{
-        padding-top: 8%;
+        padding-top: 5%;
     }
 }
 
-@media screen and (max-width: 1487px ) {
-    .cajaTituloTercero{
-        padding-top: 15%;
+
+@media screen and (max-width: 1607px){
+    #particles-js {
+        width: 35%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        background-color: transparent;
+        border-radius: 50%;
+        /* border: 1px solid #478bd80a; */
+        overflow: hidden;
+        height: 500px;
     }
 }
+
+
+
+@media screen and (max-width: 1521px){
+    .botonContacto{
+        background-color: #044cac;
+        border-radius: 4px;
+        padding: 20px 30px;
+        color: #fff;
+        text-decoration: none;
+        width: 30%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1515px){
+    .tituloSecundario{
+        font-family: 'Inter', sans-serif;
+        padding-top: 2%;
+        padding-bottom: 7%;
+        width: 60%;
+        font-size: 1.3em;
+        line-height: 170%;
+        font-weight: 550;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1487px ) {
+    .cajaTituloTercero{
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1380px){
+    #particles-js {
+        width: 40%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        background-color: transparent;
+        border-radius: 50%;
+        /* border: 1px solid #478bd80a; */
+        overflow: hidden;
+        height: 500px;
+    }
+}
+
+
+
 
 @media screen and (max-width: 1325px ) {
     .figure1 h1{
@@ -457,11 +530,22 @@ span{
 }
    
 
-
+@media screen and (max-width: 1217px){
+    #particles-js {
+        width: 40%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        background-color: transparent;
+        border-radius: 50%;
+        /* border: 1px solid #478bd80a; */
+        overflow: hidden;
+        height: 500px;
+    }
+}
 
 @media screen and (max-width: 1200px ) {
     .cajaTituloTercero{
-        padding-top: 20%;
+        padding-top: 5%;
     }
 }
 
@@ -474,6 +558,22 @@ span{
         height: 14.5em;
     }
 }
+
+@media screen and (max-width: 1521px){
+    .botonContacto{
+        background-color: #044cac;
+        border-radius: 4px;
+        padding: 20px 30px;
+        color: #fff;
+        text-decoration: none;
+        width: 35%;
+        text-align: center;
+    }
+    
+}
+
+
+
 
 @media screen and (max-width: 767px ) {
     .alturaCard{
@@ -488,20 +588,18 @@ span{
 
 @media screen and (max-height: 680px ) {
     .cajaTituloTercero{
-        padding-top: 30%;
-    }
-}
-
-@media screen and (max-width: 1195px ) {
-    .cajaTituloTercero{
-        padding-top: 32%;
+        padding-top: 5%;
     }
 }
 
 
 
-@media screen and (max-width: 1027px ) {
-    .cajaTituloTercero{
-        padding-top: 30%;
-    }
+.prueba100{
+    /* background-image: linear-gradient(rgba(50, 98, 129, 0.979),rgba(243, 239, 219, 0)); */
+    /* background-color: transparent; */
+    background-color: #f6faff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
 }
