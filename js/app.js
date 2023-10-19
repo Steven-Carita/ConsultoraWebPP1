@@ -1,7 +1,7 @@
 particlesJS({
   particles: {
     number: {
-      value: 280,
+      value: 500,
       density: {
         enable: true,
         value_area: 800,
@@ -54,7 +54,7 @@ particlesJS({
     },
     move: {
       enable: true,
-      speed: 3,
+      speed: 1,
       direction: "none",
       random: false,
       straight: false,
@@ -68,7 +68,7 @@ particlesJS({
     },
   },
   interactivity: {
-    detect_on: "canvas",
+    detect_on: "bubble",
     events: {
       onhover: {
         enable: true,
