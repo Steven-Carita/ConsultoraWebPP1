@@ -72,7 +72,7 @@ span{
 
 .barra-navegacion a {
     text-decoration: none;
-    color: black;
+    color: rgb(134, 134, 134);
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -427,6 +427,11 @@ span{
     width: 42%;
 }
 
+.footerColor{
+    background-color: rgb(39, 39, 39);
+}
+
+/* bg-dark */
 
 @keyframes scroll {
     0% {
@@ -626,11 +631,97 @@ span{
 
     /* background-color: #F5A503; */
 
-    background-color: #404040ea;
 
 
+    background-color: rgb(39, 39, 39);
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 99;
 }
+
+
+
+/* NOSOTROS ************************************************************************************/
+
+
+/* .fondoBody{
+    background-image: url("../img/fondo_nosotros/5.jpg");
+    background-size: cover;
+    background-position: center;
+} */
+
+.izquierda{
+    background-color:  #ececec;
+    width: 50%;
+    background-color: rgb(233, 233, 233);
+}
+/* .derecha{
+    width: 50%;
+    overflow: hidden;
+    background-color: yellow;
+} */
+
+video{
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+#pantalla-dividida{
+    display: flex;
+    height: auto;
+}
+
+.tituloQuienes{
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 60px;
+    margin-top: 16%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.parrafoQuienes{
+    font-family: 'Poppins', sans-serif; 
+    width: 60%;
+    margin: auto;
+}
+
+.parrafo2Quienes{
+    font-family: 'Poppins', sans-serif; 
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.botonQuienes{
+    border: 2px solid #044cac;
+    padding: 20px;
+    text-decoration: none;
+    color: #044cac;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+
+.izquierdaMision{
+    background-color:  #c2623c;
+    /* height: 100vh; */
+    width: 50%; 
+}
+
+.cajaBotonQuienes{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15%;
+} 
